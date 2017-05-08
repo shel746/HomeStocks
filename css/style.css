@@ -1,0 +1,23 @@
+.container {
+	width: 100vw;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 10px;
+	padding-left: 100px;
+
+}
+#nav{
+	max-height: 100px;
+}
+#sold{
+	display: inline-block;
+	width: 15%;
+}
+#graph{
+	display: inline-block;
+	width:60%;
+}
+#owned{
+	display: inline-block;
+	width: 15%;
+}

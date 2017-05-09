@@ -11,6 +11,9 @@
 
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script>
 
@@ -18,24 +21,58 @@
   </head>
   <body>
   <main>
-    <div id="home">
         <div class="container">
             <div class="item" id="nav">
-                <h1>Navigation</h1>
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a class="words" data-toggle="collapse" href="#homeid">Home</a>
+                          <a class="words" data-toggle="collapse" href="#tracking">Tracking</a>
+                          <a class="words" data-toggle="collapse" href="#predict">Future (TBD)</a>
+                          <a class="words" data-toggle="collapse" href="#news">News</a>
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
-        <div class="container">
-            <div class="item" id="sold">
-                <h1>Sold</h1>
-            </div>
-            <div class="item" id="graph">
-                <h1>Graph</h1>
-            </div>
-            <div class="item" id="owned">
-                <h1>Own</h1>
+        <div class="panel-collapse collapse" id="homeid">
+            <div class="container" id="home">
+                <div class="item" id="sold">
+                    <h1>Sold</h1>
+                </div>
+                <div class="item" id="graph">
+                    <h1>Graph</h1>
+                </div>
+                <div class="item" id="owned">
+                    <h1>Own</h1>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="panel-collapse collapse" id="tracking">
+            <div class="container" id="tbd">
+                <div class="item" id="sold">
+                    <h1>Sold</h1>
+                </div>
+                <div class="item" id="graph">
+                    <h1>Graph</h1>
+                </div>
+                <div class="item" id="trackstocks">
+                    <h1>Tracking</h1>
+                </div>
+            </div>
+        </div>
+        <div class="panel-collapse collapse" id="predict">
+            <div class="container" id="future">
+                
+            </div>
+        </div>
+        <div class="panel-collapse collapse" id="news">
+            <div class="container" id="newsstories">
+                
+            </div>
+        </div>
   </main>
   </body>
 </html>
